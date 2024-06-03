@@ -1,0 +1,59 @@
+/* Custom styles for QuizWhiz template */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+.navbar {
+    background-color: #343a40; /* Dark navbar */
+}
+
+.navbar-brand {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: #ffffff !important; /* White navbar brand text */
+}
+
+.navbar-toggler-icon {
+    color: #ffffff; /* White navbar toggler icon */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* White navbar links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #adb5bd !important; /* Lighter hover color for navbar links */
+}
+
+footer {
+    background-color: #343a40; /* Dark footer */
+    color: #ffffff; /* White text color in footer */
+}
+
+.container {
+    max-width: 960px;
+}
+
+.btn-info {
+    background-color: #17a2b8 !important; /* Teal button */
+    border-color: #17a2b8 !important; /* Teal button border color */
+}
+
+.btn-info:hover {
+    background-color: #138496 !important; /* Darker teal hover color */
+    border-color: #138496 !important; /* Darker teal hover color */
+}
+
+.list-inline-item {
+    color: #6c757d; /* Gray text color for list items */
+}
+
+.list-inline-item a {
+    color: #6c757d; /* Gray link color for list items */
+}
+
+.list-inline-item a:hover {
+    color: #adb5bd; /* Lighter hover color for links in list items */
+}

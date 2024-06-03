@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %} QuizWhiz | Welcome {% endblock title %}
+{% block content %}
+<div class="container my-4">
+    <div class="jumbotron">
+
+	      <h2 class="text-center text-info">Congratulations!! You have successfully logged in.</h2>
+
+        <div class="row">
+
+            <div class="card border-info mx-4 my-4">
+                <div class="card-body text-info">
+                    <a href="{% url 'quiz:play' %}" class="btn btn-info">Let's play</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock content %}
